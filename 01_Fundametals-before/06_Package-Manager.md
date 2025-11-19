@@ -57,31 +57,23 @@ When you run:
 sudo apt update
 ```
 
-apt contacts the listed repositories.
-
-It downloads small text files (called package index lists) from each repo.
-
-These lists contain metadata — names, versions, dependencies, etc.
-
-The downloaded index files live here:
-
-/var/lib/apt/lists/
-
+```bash
+- apt contacts the listed repositories.
+- It downloads small text files (called package index lists) from each repo.
+- These lists contain metadata — names, versions, dependencies, etc.
+- The downloaded index files live here:  /var/lib/apt/lists/
+```
 
 Then when you do:
 
+```bash
 sudo apt install python3
-
-
-apt looks up python3 in that metadata,
-
-Fetches the .deb file (the package) from the appropriate repo,
-
-Downloads it to:
-
-/var/cache/apt/archives/
-
---- 
+```
+```bash
+- apt looks up python3 in that metadata,
+- Fetches the .deb file (the package) from the appropriate repo,
+- Downloads it to: /var/cache/apt/archives/
+```
 
 ### Common commands include:
 ---
