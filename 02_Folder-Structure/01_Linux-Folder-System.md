@@ -1,4 +1,4 @@
-# 🐧 Understanding Linux File-System Structure
+#  Understanding Linux File-System Structure
 ---
 
 <img width="1460" height="610" alt="image" src="https://github.com/user-attachments/assets/b7abf47a-a9d7-460a-b4cf-3ad3af526b08" />
@@ -35,7 +35,7 @@ Think of `/` as the *starting point* (like “C:\” in Windows). Every file, fo
 
 ---
 
-## **3. Explanation of Key Directories**
+## ** Explanation of Key Directories**
 
 ###  **/bin → /usr/bin**
 
@@ -152,7 +152,7 @@ Example: `/data` may map to a host directory on your Mac via Docker bind mount.
 
 ---
 
-## **4. Symbolic Links Between Core Directories**
+## ** Symbolic Links Between Core Directories**
 
 To simplify system management, modern Linux distributions link traditional folders to their counterparts under `/usr`:
 
@@ -166,7 +166,7 @@ This design ensures consistency and avoids duplicate directories across root and
 
 ---
 
-## **5. Executing Commands and the PATH Variable**
+## ** Executing Commands and the PATH Variable**
 
 When you type a command like `ls`, the system needs to know **where** to find the corresponding binary file.
 
@@ -203,7 +203,7 @@ This allows you to run executables in `/home/ubuntu/scripts` without typing thei
 
 ---
 
-## **6. Summary Table**
+## ** Summary Table**
 
 | Category                | Directory                                | Description                                    |
 | ----------------------- | ---------------------------------------- | ---------------------------------------------- |
