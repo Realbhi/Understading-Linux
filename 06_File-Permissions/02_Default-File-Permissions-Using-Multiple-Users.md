@@ -1,4 +1,5 @@
 ### Demonstration of Default File Permissions Using Multiple Users
+--
 
 **To illustrate file permissions in action, consider two users: developer and QE. Following steps demonstrate default permissions:
 Create two users: developer and QE.**
