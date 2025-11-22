@@ -21,3 +21,8 @@ starts a service.
 ```
 systemctl start 
 ```
+
+Enable a service at startup.
+```bash
+systemctl enable service-name
+```
