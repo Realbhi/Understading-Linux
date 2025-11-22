@@ -26,7 +26,7 @@ Monitoring helps identify processes consuming excessive CPU, memory, or disk spa
 
 - ```du -sh*```
 
-`iostat`                 Display CPU and disk I/O statistics
+- `iostat`                 Display CPU and disk I/O statistics
 
 
 Example: Checking /opt directory size and subfolders to locate large log files occupying disk space.
